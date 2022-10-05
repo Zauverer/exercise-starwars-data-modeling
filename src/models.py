@@ -8,8 +8,6 @@ from eralchemy import render_er
 
 class Characters(Base):
     __tablename__ = 'characters'
-    # Here we define columns for the table person
-    # Notice that each column is also a normal Python instance attribute.
     id = Column(Integer, primary_key=True)
     name = Column(String(50), nullable=False)
     birth_day = Column(String(10), nullable=False)
@@ -24,8 +22,6 @@ class Characters(Base):
 
 class Planets(Base):
     __tablename__ = 'planets'
-    # Here we define columns for the table address.
-    # Notice that each column is also a normal Python instance attribute.
     id = Column(Integer, primary_key=True)
     character_id = Column(Integer, ForeignKey('characters.id'))
     characters = relationship (Characters)
@@ -41,8 +37,6 @@ class Planets(Base):
 
 class Starships(Base):
     __tablename__ = 'starships'
-    # Here we define columns for the table address.
-    # Notice that each column is also a normal Python instance attribute.
     id = Column(Integer, primary_key=True)
     planets_id = Column(Integer, ForeignKey('planets.id'))
     planets = relationship (Planets)
@@ -62,8 +56,6 @@ class Starships(Base):
 
 class Users(Base):
     __tablename__ = 'users'
-    # Here we define columns for the table person
-    # Notice that each column is also a normal Python instance attribute.
     id = Column(Integer, primary_key=True)
     name = Column(String(50), unique=True, nullable=False)
     email = Column(String(50), unique=True, nullable=False)
