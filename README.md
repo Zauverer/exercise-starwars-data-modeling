@@ -8,6 +8,7 @@ Here is a 4min video explaining what UML is: [https://www.youtube.com/watch?v=UI
 
 We are going to be creating the Entity Relationship Diagram for your StarWars Blog Database, a very similar diagram to this one:
 
+![Starwars Diagram](https://github.com/Zauverer/exercise-starwars-data-modeling/diagram.png?raw=true)
 ![Starwars Diagram](https://github.com/breatheco-de/exercise-starwars-data-modeling/blob/master/assets/example.png?raw=true)
 [Click to open diagram](https://app.quickdatabasediagrams.com/#/d/LxNXQZ)
 
