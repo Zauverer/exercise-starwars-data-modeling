@@ -1,5 +1,5 @@
 # StarWars blog database
-![Starwars Diagram](https://github.com/breatheco-de/exercise-starwars-data-modeling/blob/master/assets/example.png?raw=true)
+
 ![Starwars Diagram](https://github.com/Zauverer/exercise-starwars-data-modeling/blob/master/assets/diagram.png?raw=true)
 
 ## 💻 Installation
